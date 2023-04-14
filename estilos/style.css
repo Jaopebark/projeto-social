@@ -30,11 +30,6 @@ section#tele{
     background: url("../imagens/frame-iphone2.png");
     background-repeat: no-repeat;
 }
-section > div{
-    position: relative;
-    height: 504px;
-    width: 250px;
-}
 iframe#tela{
     position: relative;
     top: 64px;
@@ -43,3 +38,24 @@ iframe#tela{
     height: 380px;
     
 }
+#redes-sociais 
+{
+    text-align: right;
+}
+#redes-sociais  img{
+    
+  width: 50px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.377);
+  box-sizing: border-box;
+ 
+}
+#redes-sociais  img:hover{
+    border: 2px solid rgba(206, 206, 206, 0.705);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582);
+    transform: translate(-3px,-3px);
+    transition: transform 0.2s,border 0.5s;
+  }
+  
+
